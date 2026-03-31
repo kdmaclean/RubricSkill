@@ -1,8 +1,8 @@
-# Stress Test Protocol
+# Calibration Protocol
 
-This file describes how to conduct a rubric stress test against real student responses. The goal is not to grade students — it is to identify weaknesses in the rubric itself.
+This file describes how to conduct a rubric calibration against real student responses. The goal is not to grade students — it is to identify weaknesses in the rubric itself.
 
-A stress test produces a diagnostic report that guides rubric revision. Think of it as putting the rubric through its paces before it gets used at scale.
+A calibration produces a diagnostic report that guides rubric revision. Think of it as putting the rubric through its paces before it gets used at scale.
 
 ---
 
@@ -58,10 +58,10 @@ After working through all responses, compile findings across all four categories
 
 ## Report Format
 
-Save as `stress_test_report.md`. Use this structure:
+Save as `calibration_report.md`. Use this structure:
 
 ```markdown
-# Stress Test Report
+# Calibration Report
 
 **Assignment:** [assignment name/description]
 **Rubric version:** [version number]
@@ -114,13 +114,13 @@ Present the report to the faculty member and ask:
 
 Let them lead — they may decide some findings aren't worth acting on. That's fine. Your job is to surface the issues, not to insist on fixing all of them.
 
-After revisions, note in `session_notes.md` which stress test findings were addressed and which were intentionally left alone.
+After revisions, note in `session_notes.md` which calibration findings were addressed and which were intentionally left alone.
 
 ---
 
-## What the Stress Test Is Not
+## What the Calibration Is Not
 
 - **Not a grading session.** You are not producing grades for students.
 - **Not a judgment of the assignment.** The goal is rubric improvement, not critique of what was assigned.
 - **Not a replacement for faculty judgment.** You are a diagnostic tool. The faculty member decides which findings to act on.
-- **Not a guarantee.** A stress test on 8 responses won't catch everything. Flag this limitation in the report summary.
+- **Not a guarantee.** A calibration on 8 responses won't catch everything. Flag this limitation in the report summary.
