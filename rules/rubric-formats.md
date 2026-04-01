@@ -96,17 +96,21 @@ When presenting options to faculty, describe the tradeoffs — don't just list n
 
 ## Format 4: Developmental (Competency-Based)
 
-**What it is:** Describes a progression of skill development rather than performance levels on a single task. Used to track growth over time.
+**What it is:** Describes a progression of skill development rather than performance levels on a single task. Unlike an analytic rubric — which asks "how well did this student do on this assignment?" — a developmental rubric asks "where is this student in their development of this skill?" The same rubric is applied to the same student at multiple points in time, across different assignments or across a sequence of courses, to track movement along a growth trajectory. Think of it as a growth chart: the scale stays fixed, and the student moves along it.
 
-**Best for:** Skills assessed across multiple assignments in a course or program (writing, research, clinical judgment, etc.). Common in competency-based education.
+**Best for:** Skills assessed repeatedly across multiple assignments or courses — writing, research, clinical judgment, oral communication, and similar competencies. Common in competency-based education and program-level assessment. Most powerful when paired with a portfolio or advising structure that allows students to see their own trajectory over time.
 
 **Tradeoffs:**
-- Most complex to design well
-- Excellent for longitudinal assessment and learning portfolios
-- Less suitable for a single high-stakes assignment
-- Requires faculty to think carefully about what growth actually looks like
+- Excellent for longitudinal assessment — shows growth in a way a single-assignment rubric cannot
+- Requires surrounding infrastructure to be useful: a course sequence, portfolio, or repeated assessment points where the rubric can be applied more than once
+- Most complex to design well — requires faculty to think carefully about what genuine progression looks like, not just what good vs. poor work looks like on one task
+- Not suitable for a single high-stakes assignment graded once
 
-**When to recommend:** Writing-intensive courses, capstone sequences, clinical or practicum programs.
+**A note on level labels:** The language of developmental levels matters more than in other formats. Labels like *Novice / Developing / Proficient / Advanced* signal a trajectory — a student at Novice is at an early but expected stage, not failing. If you use analytic rubric language (*Does Not Meet / Approaching / Meets / Exceeds*) on a developmental rubric, it implies the lower levels represent inadequate performance rather than normal early development. Choose labels that communicate growth, not deficit.
+
+**When to recommend:** Writing-intensive courses with assignments across multiple terms, capstone sequences, clinical or practicum programs, or any program with formal competency tracking across courses.
+
+**When not to recommend:** If the faculty member is assessing a single assignment with no plans to reapply the rubric over time, a developmental rubric will require substantially more design work for no added benefit. Recommend analytic instead.
 
 ### Developmental Table Structure
 
@@ -117,6 +121,12 @@ When presenting options to faculty, describe the tradeoffs — don't just list n
 ```
 
 Note: these levels describe a developmental trajectory, not quality on a single task. A student at "Novice" is not failing — they are at an expected stage.
+
+---
+
+## Hybrid Formats
+
+The four formats above are not mutually exclusive. The most common hybrid is an analytic rubric with a single holistic row added — typically for a quality of the whole piece that no individual criterion captures, such as overall coherence or argument arc. Hybrids like this are fine as long as they are intentional: each added row should have a clear purpose, not serve as a catch-all.
 
 ---
 
