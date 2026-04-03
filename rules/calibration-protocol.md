@@ -37,6 +37,8 @@ Flag: Any observable quality in student work that you noticed yourself as a read
 ## Procedure
 
 ### Step 1: Confirm the Sample
+The faculty member must supply real student responses. Never generate synthetic or fabricated student work for the calibration — doing so defeats the entire purpose, since the diagnostic value comes from encountering the unpredictable ways real students actually interpret and respond to an assignment. If no student responses are available yet, tell the faculty member the calibration should wait until they have some.
+
 Tell the faculty member:
 > "I have [N] student responses. I'll work through each one and apply the rubric, then generate a diagnostic report. This will take a few minutes."
 
@@ -124,3 +126,4 @@ After revisions, note in `session_notes.md` which calibration findings were addr
 - **Not a judgment of the assignment.** The goal is rubric improvement, not critique of what was assigned.
 - **Not a replacement for faculty judgment.** You are a diagnostic tool. The faculty member decides which findings to act on.
 - **Not a guarantee.** A calibration on 8 responses won't catch everything. Flag this limitation in the report summary.
+- **Not something you can do with synthetic data.** Never offer to generate fake student responses to "get started" or fill a gap. The whole point is to see how the rubric handles real, messy, unpredictable student work. Fabricated responses will only tell you how the rubric handles your own assumptions.
