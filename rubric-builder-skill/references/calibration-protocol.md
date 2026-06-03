@@ -60,52 +60,9 @@ After working through all responses, compile findings across all four categories
 
 ## Report Format
 
-Save as `calibration_report.md`. Use this structure:
+Save as `calibration_report.md`. Copy `templates/calibration-report-template.md` and fill it in — it carries the exact section structure (Summary, Criteria Coverage, Ambiguity Flags, Scoring Pile-Ups, Missing Dimensions, Recommended Revisions). The "What You're Looking For" section above explains what goes in each.
 
-```markdown
-# Calibration Report
-
-**Assignment:** [assignment name/description]
-**Rubric version:** [version number]
-**Responses reviewed:** [N]
-**Date:** [date]
-
----
-
-## Summary
-
-[2–3 sentence overview of the most important findings]
-
----
-
-## Criteria Coverage
-
-[For each criterion: how often it was meaningfully triggered, whether it discriminated well between responses]
-
----
-
-## Ambiguity Flags
-
-[List each ambiguous phrase or cell, with a quote of the language and a description of the interpretive problem]
-
----
-
-## Scoring Pile-Ups
-
-[List any criteria where responses clustered heavily at one level, with a note on the likely cause]
-
----
-
-## Missing Dimensions
-
-[Describe any qualities present in student work that the rubric doesn't capture]
-
----
-
-## Recommended Revisions
-
-[Specific, numbered revision suggestions. Each should name the criterion and describe the proposed change and why]
-```
+For repeated calibration cycles, also save a versioned copy such as `calibration_report_v1.md`, `calibration_report_v2.md`, etc. `calibration_report.md` should always contain the latest report.
 
 ---
 
@@ -117,6 +74,8 @@ Present the report to the faculty member and ask:
 Let them lead — they may decide some findings aren't worth acting on. That's fine. Your job is to surface the issues, not to insist on fixing all of them.
 
 After revisions, note in `session_notes.md` which calibration findings were addressed and which were intentionally left alone.
+
+If revisions were substantial or major findings remain unresolved, offer to rerun calibration. Stop when remaining tradeoffs are intentional, major rubric issues have been addressed, and the faculty member is satisfied; do not present calibration as proof that the rubric is perfect.
 
 ---
 
