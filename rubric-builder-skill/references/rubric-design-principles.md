@@ -1,6 +1,6 @@
 # Rubric Design Principles
 
-These are the hardcoded best practices that every rubric produced by this skill must follow. Read this file before drafting any rubric in Stage 1.
+These are the hardcoded best practices that every rubric produced by this skill must follow. Read this file before drafting a rubric during Build, and use the checklist before calibration or final export.
 
 ---
 
@@ -66,7 +66,7 @@ Five levels is generally the upper limit. Beyond five, distinctions between adja
 
 ## 5. Limit Criteria to What Matters
 
-A rubric with 12 criteria is usually trying to grade everything at once. This creates grader fatigue, confuses students about priorities, and often results in criteria that overlap. Aim for 4–7 criteria in an analytic rubric. If the faculty member insists on more, ask what the most important criteria are and consider whether any can be consolidated.
+A rubric with 12 criteria is usually trying to grade everything at once. This creates grader fatigue, confuses students about priorities, and often results in criteria that overlap. Aim for 3–7 criteria in an analytic rubric. If the faculty member insists on more, ask what the most important criteria are and consider whether any can be consolidated.
 
 **Test:** If you removed a criterion, would students produce meaningfully different work? If not, the criterion may not belong.
 
