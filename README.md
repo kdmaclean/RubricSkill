@@ -65,21 +65,23 @@ Once a session is running, you can use these commands at any point:
 
 ### Install for all projects (personal scope)
 
-Clone the repository into your Claude Code skills directory:
+Clone the repository and copy the skill subfolder into your Claude Code skills directory:
 
 ```bash
-git clone https://github.com/kdmaclean/RubricSkill.git ~/.claude/skills/rubric-builder
+git clone https://github.com/kdmaclean/RubricSkill.git /tmp/RubricSkill
+cp -r /tmp/RubricSkill/rubric-builder-skill ~/.claude/skills/rubric-builder
 ```
 
 The skill is now available in every Claude Code session. Start a session and ask it to build a rubric — it triggers automatically on phrases like "make a rubric," "rubric for my assignment," or "grading criteria."
 
 ### Install for a single project
 
-Clone the repository into the project's `.claude/skills/` directory:
+Clone the repository and copy the skill subfolder into the project's `.claude/skills/` directory:
 
 ```bash
 cd /path/to/your/project
-git clone https://github.com/kdmaclean/RubricSkill.git .claude/skills/rubric-builder
+git clone https://github.com/kdmaclean/RubricSkill.git /tmp/RubricSkill
+cp -r /tmp/RubricSkill/rubric-builder-skill .claude/skills/rubric-builder
 ```
 
 The skill will be available only in sessions started from that project folder.
@@ -89,12 +91,17 @@ The skill will be available only in sessions started from that project folder.
 ### Skill files (what you install)
 
 ```
-rubric-builder/
+rubric-builder-skill/
   SKILL.md                          ← Skill definition
-  rules/
+  references/
     rubric-design-principles.md     ← Best practices applied during drafting
     rubric-formats.md               ← Format options and table structures
     calibration-protocol.md         ← Procedure for calibrating against student work
+  templates/
+    analytic-template.md            ← Analytic rubric table structure
+    holistic-template.md            ← Holistic rubric table structure
+    calibration-report-template.md  ← Diagnostic report format
+    session-notes-template.md       ← Session state tracking
 ```
 
 ### Working files (created during a session)
@@ -117,4 +124,4 @@ The skill enforces rubric design best practices drawn from assessment literature
 - Weight criteria to reflect instructional priorities
 - Make the top level achievable, not aspirational
 
-See `rules/rubric-design-principles.md` for the full list.
+See `rubric-builder-skill/references/rubric-design-principles.md` for the full list.
